@@ -1,4 +1,9 @@
-# Fresh Blue
+#JetSpace Gnome-Shell Theme
+## Big thanks to kelunik!
 
-FreshBlue is my personal gnome-shell theme.
+This will be used as default theme on future jetspace installations!
+I hope you enjoy this!
 
+##What should this be?
+
+It should look like a modern UI, with mostly dark and some colored parts!
