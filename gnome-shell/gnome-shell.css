@@ -293,8 +293,8 @@ StScrollBar StButton#vhandle:active {
   border-radius: 2px;
   border: 1px solid #DC5A14;
   background-gradient-direction: vertical;
-  background-gradient-start: #eee;
-  background-gradient-end: #ddd;
+  background-gradient-start: rgb(100, 100, 100);
+  background-gradient-end: rgb(80, 80, 80);
 }
 .modal-dialog-button {
   font-weight: bold;
@@ -306,8 +306,8 @@ StScrollBar StButton#vhandle:active {
 .hotplug-resident-eject-button:hover,
 .modal-dialog-button:hover {
   border: 1px solid #DC8214;
-  background-gradient-start: #f5f5f5;
-  background-gradient-end: #e5e5e5;
+  background-gradient-start: rgb(40, 40, 40);
+  background-gradient-end: rgb(30, 30, 30);
 }
 .notification-button:focus,
 .notification-icon-button:focus,
@@ -329,8 +329,8 @@ StScrollBar StButton#vhandle:active {
 .modal-dialog-button:active,
 .modal-dialog-button:pressed,
 .app-view-control:checked {
-  background-gradient-start: #e5e5e5;
-  background-gradient-end: #f5f5f5;
+  background-gradient-start: rgb(40, 40, 40);
+  background-gradient-end: rgb(30, 30, 30);
 }
 .candidate-page-button:insensitive,
 .notification-button:insensitive,
@@ -1398,13 +1398,13 @@ StEntry:focus {
   text-align: center;
   font-weight: bold;
   spacing: 1em;
-  color: #333;
+  color: rgb(40, 40, 40);
 }
 .osd-window .level {
   height: 0.6em;
   border-radius: 0.3em;
-  background-color: rgba(0, 100, 200, 0.3);
-  color: rgba(0, 100, 200, 0.85);
+  background-color: rgba(220, 90, 20, 0.3);
+  color: #DC5A14;
 }
 /* App Switcher */
 
@@ -1415,7 +1415,7 @@ StEntry:focus {
 .osd-window,
 .switcher-list,
 #LookingGlassDialog {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgb(40, 40, 40);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border: 0;
   border-radius: 3px;
@@ -1456,7 +1456,7 @@ StEntry:focus {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .switcher-list .item-box:selected {
-  background: rgba(255, 255, 255, 0.33);
+  background: rgba(40, 40, 40, 0.33);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   color: #333;
@@ -1510,7 +1510,7 @@ StEntry:focus {
 }
 .ws-switcher-active-up {
   height: 60px;
-  border: 1px solid rgba(0, 100, 200, 0.85);
+  border: 1px solid #DC5A14;
   background: rgba(0, 0, 0, 0.05);
   background-image: url("ws-switch-arrow-up.png");
   background-size: contain;
@@ -1518,7 +1518,7 @@ StEntry:focus {
 }
 .ws-switcher-active-down {
   height: 60px;
-  border: 1px solid rgba(0, 100, 200, 0.85);
+  border: 1px solid #DC5A14;
   background: 1px solid rgba(0, 0, 0, 0.05);
   background-image: url("ws-switch-arrow-down.png");
   background-size: contain;
@@ -1526,7 +1526,7 @@ StEntry:focus {
 }
 .ws-switcher-box {
   height: 60px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #DC5A14;
   background: transparent;
   border-radius: 4px;
 }
@@ -1539,15 +1539,15 @@ StEntry:focus {
 .end-session-dialog-subject {
   font-size: 14pt;
   font-weight: bold;
-  color: #aaa;
+  color: #FFF;
 }
 .modal-dialog {
   border-radius: 2px;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgb(40, 40, 40);
   border: 0;
   padding: 30px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-  color: #333;
+  color: #DFDFDF;
 }
 .modal-dialog-button-box {
   spacing: 20px;
@@ -1564,26 +1564,26 @@ StEntry:focus {
 .run-dialog-label {
   font-size: 11pt;
   font-weight: bold;
-  color: #333;
+  color: #DC5A14;
   padding-bottom: .4em;
 }
 .run-dialog-error-box {
   padding-top: 15px;
   spacing: 5px;
-  color: #a00;
+  color: #DC8214;
   font-weight: bold;
   text-shadow: none;
 }
 .modal-dialog .run-dialog-entry {
   width: 20em;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #fafafa;
+  border: 1px solid #DC5A14;
+  background-color: rgb(50, 50, 50);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
   border-radius: 0;
 }
 .modal-dialog .run-dialog-entry:focus {
-  border: 1px solid rgba(0, 100, 200, 0.3);
-  box-shadow: 0 0 2px rgba(0, 100, 200, 0.3);
+  border: 1px solid #DC5A14;
+  box-shadow: 0 0 2px #DC5A14;
 }
 .lightbox {
   background-color: black;
@@ -1602,7 +1602,7 @@ StEntry:focus {
 .end-session-dialog-subject {
   padding-left: 17px;
   padding-bottom: 20px;
-  color: #333;
+  color: #FFF;
 }
 .end-session-dialog-description {
   padding-left: 17px;
