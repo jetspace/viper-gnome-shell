@@ -1,0 +1,4 @@
+//this file contains the basic 'styleguide' for the ViperTheme
+AccentColor: #DC5A14
+LightAccent: #DC8214
+Backgrounds: rgb(40, 40, 40)

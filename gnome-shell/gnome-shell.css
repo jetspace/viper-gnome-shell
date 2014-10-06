@@ -116,11 +116,11 @@ StScrollBar StButton#vhandle:active {
   -slider-height: 0.3em;
   -slider-background-color: #fafafa;
   -slider-border-color: rgba(0, 0, 0, 0.3);
-  -slider-active-background-color: rgba(0, 100, 200, 0.85);
+  -slider-active-background-color: #DC5A14;
   -slider-active-border-color: rgba(0, 0, 0, 0.5);
   -slider-border-width: 1px;
   -slider-handle-radius: 5px;
-  color: #555;
+  color: #DC8214;
 }
 /* PopupMenu */
 
@@ -144,13 +144,13 @@ StScrollBar StButton#vhandle:active {
 .popup-menu-content {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   /* without background no shadow */
-  background: rgba(255, 255, 255, 0.95);
+  background: rgb(40, 40, 40);
 }
 .unicode-arrow {
   font-size: 120%;
 }
 .popup-submenu-menu-item:open {
-  background: #f7f7f7;
+  background: #DC8214;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
   border-bottom: none !important;
@@ -178,7 +178,7 @@ StScrollBar StButton#vhandle:active {
 .popup-menu-item {
   spacing: 12px;
   -margin-horizontal: 4px;
-  color: #444;
+  color: #FFFFFF;
   border-top: 1px solid rgba(0, 0, 0, 0.0);
   border-bottom: 1px solid rgba(0, 0, 0, 0.0);
 }
@@ -291,7 +291,7 @@ StScrollBar StButton#vhandle:active {
 .app-view-control {
   color: #333;
   border-radius: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #DC5A14;
   background-gradient-direction: vertical;
   background-gradient-start: #eee;
   background-gradient-end: #ddd;
@@ -305,7 +305,7 @@ StScrollBar StButton#vhandle:active {
 .hotplug-notification-item:hover,
 .hotplug-resident-eject-button:hover,
 .modal-dialog-button:hover {
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #DC8214;
   background-gradient-start: #f5f5f5;
   background-gradient-end: #e5e5e5;
 }
@@ -314,7 +314,7 @@ StScrollBar StButton#vhandle:active {
 .hotplug-notification-item:focus,
 .modal-dialog-button:focus,
 .app-view-control:focus {
-  border-color: rgba(0, 100, 200, 0.85);
+  border-color: #DC5A14;
 }
 .app-view-control:first-child:ltr:focus,
 .app-view-control:last-child:rtl:focus {
@@ -389,7 +389,7 @@ StEntry:focus {
 /* Panel */
 
 #panel {
-  background-color: rgb(0, 100, 200);
+  background-color: rgb(40, 40, 40);
   font-weight: normal;
   height: 2em;
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2) inset;
@@ -455,8 +455,8 @@ StEntry:focus {
   -natural-hpadding: 12px;
   -minimum-hpadding: 6px;
   font-weight: bold;
-  color: #eee;
-  transition-duration: 100ms;
+  color: #DC5A14;
+  transition-duration: 250ms;
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 2px;
   icon-shadow: rgba(0, 0, 0, 0.2) 0 2px 2px;
 }
@@ -466,7 +466,7 @@ StEntry:focus {
 #panel.unlock-screen .panel-button,
 #panel.lock-screen .panel-button,
 #panel.login-screen .panel-button {
-  color: #eee;
+  color: #fff;
 }
 #panel.unlock-screen .panel-button:hover,
 #panel.lock-screen .panel-button:hover,
@@ -555,7 +555,7 @@ StEntry:focus {
   spacing: 11px;
   visible-width: 50px;
   /* Amount visible before hovering */
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px inset rgba(255, 255, 255, 0.1);
   border-right: 0px;
   border-radius: 4px 0 0 4px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -568,7 +568,7 @@ StEntry:focus {
   padding: 11px 11px 11px 7px;
 }
 .workspace-thumbnail-indicator {
-  border: 1px solid rgba(0, 100, 200, 0.5);
+  border: 2px dotted #DC5A14;
   border-radius: 2px;
   padding: 5px;
 }
@@ -1004,19 +1004,21 @@ StEntry:focus {
 .calendar-vertical-separator {
   -stipple-width: 0;
   -stipple-color: transparent;
-  background-color: rgba(0, 0, 0, 0.05);
-  width: 1px;
+  background-color: #DC5A14;
+  width: 2px;
 }
 #calendarPopup .calendar {
   padding: 10px;
+  background-color: rgb(40, 40, 40);
 }
 .calendar {
   padding: .4em 1.75em .8em 1.75em;
   spacing-rows: 0px;
   spacing-columns: 0px;
+  background-color: rgb(40, 40, 40);
 }
 .calendar-month-label {
-  color: rgba(0, 0, 0, 0.65);
+  color: #DC5A14;
   font-size: 10pt;
   font-weight: bold;
   padding-bottom: 8px;
@@ -1025,7 +1027,7 @@ StEntry:focus {
 .calendar-month-label:focus {
   /* possible with arrow keys */
   background-color: transparent;
-  color: rgb(0, 100, 200);
+  color: #DC5A14;
 }
 .calendar-change-month-back {
   width: 18px;
@@ -1062,13 +1064,14 @@ StEntry:focus {
 .datemenu-date-label {
   padding: .4em 1.7em;
   font-weight: bold;
-  text-align: center;
-  color: #333;
+  text-align: right;
+  color: #DC5A14;
+  background-color: rgb(40, 40, 40);
 }
 .datemenu-date-label:focus {
   /* possible with arrow keys */
   background-color: transparent;
-  color: rgb(0, 100, 200);
+  color: #DC5A14;
 }
 .calendar-day-base {
   font-size: 9pt;
@@ -1086,14 +1089,14 @@ StEntry:focus {
   color: #222;
 }
 .calendar-day-heading {
-  color: rgba(0, 0, 0, 0.6);
+  color: #DC5A14;
   font-weight: bold;
   text-align: center;
   width: 2.4em;
   height: 1.8em;
 }
 .calendar-week-number {
-  color: rgba(0, 0, 0, 0.6);
+  color: #DC5A14;
   font-weight: bold;
   text-align: center;
   width: 2.4em;
@@ -1103,8 +1106,8 @@ StEntry:focus {
 /* Hack used in lieu of border-collapse - see calendar.js */
 
 .calendar-day {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  color: #666;
+  border: 1px solid #DC8214;
+  color: #FFFFFF;
   border-top-width: 0;
   border-left-width: 0;
 }
@@ -1114,30 +1117,34 @@ StEntry:focus {
 .calendar-day-left {
   border-left-width: 1px;
 }
-.calendar-work-day {} .calendar-nonwork-day {
-  background-color: rgba(0, 0, 0, 0.075)
+.calendar-work-day {
+  background-color: #323232;
+  }
+.calendar-nonwork-day {
+  background-color: #3C3C3C;
 }
 .calendar-today {
   background-image: url("img/calendar-today.png");
   background-size: contain;
   font-weight: bold;
+  color: #DC5A14;
 }
 .calendar-day-with-events {
   font-weight: bold;
-  color: rgb(0, 100, 200);
+  color: #DC5A14;
 }
 .calendar-other-month-day {
-  color: rgba(0, 0, 0, 0.2);
+  color: #BCBCBC;
 }
 .events-table {
   width: 320px;
+  background-color: rgb(40, 40, 40);
   spacing-columns: 6pt;
   padding: 0 1.4em;
   padding-right: 1.9em;
 }
 .events-day-header {
   font-weight: bold;
-  color: #333;
   padding-left: 0.4em;
   padding-top: 1.2em;
 }
@@ -1712,6 +1719,7 @@ StEntry:focus {
 .prompt-dialog {
   /* this is the width of the entire modal popup */
   width: 500px;
+  background-color: rgb(40, 40, 40);
 }
 .prompt-dialog-main-layout {
   spacing: 24px;
@@ -1723,7 +1731,7 @@ StEntry:focus {
 .prompt-dialog-headline {
   font-size: 12pt;
   font-weight: bold;
-  color: #333;
+  color: #DC5A14;
 }
 .prompt-dialog-password-box {
   spacing: 1em;
