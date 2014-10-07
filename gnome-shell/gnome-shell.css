@@ -555,7 +555,7 @@ StEntry:focus {
   spacing: 11px;
   visible-width: 50px;
   /* Amount visible before hovering */
-  border: 1px inset rgba(255, 255, 255, 0.1);
+  border: 1px inset rgba(40, 40, 40, 0.2);
   border-right: 0px;
   border-radius: 4px 0 0 4px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -661,14 +661,14 @@ StEntry:focus {
   width: 320px;
   border: 0;
   /* FIXME: Doesn't work */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid #DC5A14;
   box-shadow: none;
   /* FIXME: Doesn't work */
   background-color: transparent;
   background-image: none;
-  color: #fff;
-  caret-color: #fff;
-  selected-color: #fff;
+  color: #DC5A14;
+  caret-color: #DC5A14;
+  selected-color: #DC5A14;
 }
 #searchEntry:focus,
 #searchEntry:hover /* FIXME: Doesn't work */ {
@@ -676,11 +676,11 @@ StEntry:focus {
 }
 .search-entry-icon {
   icon-size: 1em;
-  color: #ccc;
+  color: #DC5A14;
 }
 #searchEntry:hover .search-entry-icon,
 #searchEntry:focus .search-entry-icon {
-  color: #fff;
+  color: #DC5A14;
 }
 /* Search Results */
 
@@ -712,8 +712,8 @@ StEntry:focus {
   spacing: 32px;
 }
 .search-statustext {
-  color: #333;
-  font-size: 2em;
+  color: #DC5A14;
+  font-size: 3em;
   font-weight: bold;
 }
 .list-search-results {
@@ -791,16 +791,16 @@ StEntry:focus {
 .list-search-result-title {
   font-weight: bold;
   font-size: 14pt;
-  color: #fafafa;
+  color: #DC5A14;
 }
 .list-search-result:hover .list-search-result-title,
 .list-search-result:focus .list-search-result-title,
 .list-search-result:hover .list-search-result-description,
 .list-search-result:focus .list-search-result-description {
-  color: #333;
+  color: #DC5A14;
 }
 .list-search-result-description {
-  color: #eee;
+  color: #DC8214;
 }
 .search-provider-icon-more {
   width: 16px;
@@ -1086,7 +1086,7 @@ StEntry:focus {
 .calendar-day-base:active {
   font-size: 9pt;
   background-color: rgba(0, 0, 0, 0.1);
-  color: #222;
+  color: #DC8214;
 }
 .calendar-day-heading {
   color: #DC5A14;
@@ -2067,13 +2067,13 @@ StEntry:focus {
   font-weight: bold;
   text-align: left;
   padding-left: 18px;
-  color: #333;
+  color: #DC5A14;
   text-shadow: black 0px 4px 3px 0px;
 }
 /* Screen shield */
 
 .screen-shield-background {
-  background: black;
+  background: rgb(40, 40, 40);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
 }
 #lockDialogGroup {
@@ -2081,10 +2081,10 @@ StEntry:focus {
   background-repeat: repeat;
 }
 .screen-shield-arrows {
-  padding-bottom: 3em;
+  padding-bottom: 4em;
 }
 .screen-shield-arrows Gjs_Arrow {
-  color: white;
+  color: #DC5A14;
   width: 80px;
   height: 48px;
   -arrow-thickness: 12px;
@@ -2094,18 +2094,18 @@ StEntry:focus {
   spacing: 48px;
 }
 .screen-shield-clock {
-  color: white;
+  color: #DC5A14;
   text-shadow: 0;
   font-weight: bold;
   text-align: center;
   padding-bottom: 1.5em;
 }
 .screen-shield-clock-time {
-  font-size: 72pt;
+  font-size: 74pt;
   text-shadow: 0;
 }
 .screen-shield-clock-date {
-  font-size: 28pt;
+  font-size: 30pt;
 }
 #screenShieldNotifications {
   max-height: 500px;
